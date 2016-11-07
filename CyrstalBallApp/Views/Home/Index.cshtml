@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<button>Click Me</button>
+<p id="reply"></p>
+<script>
+     window.onload = function () {
+
+        $("button").click(function () {
+             alert("yep, it works")
+          //  $.get ("@Url.Action("shakebBall", "Home")", function(response){
+          //      $("#reply").text(response);
+          //  });
+        });
+    };
+</script>
+
